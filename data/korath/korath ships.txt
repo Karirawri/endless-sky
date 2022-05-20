@@ -183,7 +183,7 @@ ship "Korath Raider"
 		"Triple Plasma Core"
 		"Systems Core (Medium)"
 		"Large Heat Shunt" 2
-		"Small Heat Shunt"
+		"Small Heat Shunt" 2
 		"Fuel Processor"
 		"Korath Repeater Rifle" 196
 		
@@ -333,6 +333,7 @@ ship "Korath Chaser"
 	gun 0 -28 "Korath Fire-Lance"
 	explode "tiny explosion" 20
 	description "The Korath Chaser is a fighter carried by most of their capital ships."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 
@@ -565,6 +566,7 @@ ship "Kar Ik Vot 349"
 		"shields" 57200
 		"hull" 65400
 		"automaton" 1
+		"crew equivalent" 150
 		"mass" 1350
 		"drag" 16.8
 		"heat dissipation" .5
@@ -726,6 +728,7 @@ ship "Tek Far 71 - Lek"
 		"shields" 25400
 		"hull" 29500
 		"automaton" 1
+		"crew equivalent" 50
 		"mass" 610
 		"drag" 9.6
 		"heat dissipation" .6
@@ -821,6 +824,7 @@ ship "Tek Far 78 - Osk"
 		"shields" 27600
 		"hull" 34100
 		"automaton" 1
+		"crew equivalent" 50
 		"mass" 690
 		"drag" 10.2
 		"heat dissipation" .55
@@ -915,6 +919,7 @@ ship "Tek Far 109"
 		"shields" 17900
 		"hull" 15800
 		"automaton" 1
+		"crew equivalent" 100
 		"mass" 540
 		"drag" 9.1
 		"heat dissipation" .65
@@ -987,6 +992,7 @@ ship "Met Par Tek 53"
 		"shields" 15100
 		"hull" 22200
 		"automaton" 1
+		"crew equivalent" 25
 		"mass" 420
 		"drag" 5.7
 		"heat dissipation" .8
@@ -1078,6 +1084,7 @@ ship "Far Lek 14"
 		"shields" 900
 		"hull" 1600
 		"automaton" 1
+		"crew equivalent" 1
 		"mass" 26
 		"drag" .8
 		"heat dissipation" 1.1
@@ -1105,6 +1112,7 @@ ship "Far Lek 14"
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	description "At the peak of their recent civil war, the Kor Sestor faction developed these automated attack drones, easy to manufacture and encased in an ultra-dense hull that can absorb a significant amount of damage."
+	description "	Drones do not come equipped with a hyperdrive. You cannot carry a drone unless you have a ship in your fleet with a drone bay."
 
 
 
@@ -1117,6 +1125,7 @@ ship "Far Osk 27"
 		"shields" 1500
 		"hull" 2400
 		"automaton" 1
+		"crew equivalent" 2
 		"mass" 34
 		"drag" 1.1
 		"heat dissipation" 1.0
@@ -1145,6 +1154,7 @@ ship "Far Osk 27"
 	explode "tiny explosion" 25
 	explode "small explosion" 15
 	description "Because it is piloted by a computer and has no need for a cockpit or life support systems, the FS27 fighter is able to carry far more weaponry than any comparable human ship."
+	description "	Fighters do not come equipped with a hyperdrive. You cannot carry a fighter unless you have a ship in your fleet with a fighter bay."
 
 
 
@@ -1157,6 +1167,7 @@ ship "Model 8"
 		"shields" 5450
 		"hull" 3320
 		"automaton" 1
+		"crew equivalent" 5
 		"mass" 110
 		"drag" 3.2
 		"heat dissipation" 1.5
@@ -1204,6 +1215,7 @@ ship "Model 16"
 		"shields" 15700
 		"hull" 9800
 		"automaton" 1
+		"crew equivalent" 10
 		"mass" 250
 		"drag" 6.9
 		"heat dissipation" 1.3
@@ -1258,6 +1270,7 @@ ship "Model 32"
 		"shields" 27900
 		"hull" 13400
 		"automaton" 1
+		"crew equivalent" 25
 		"mass" 370
 		"drag" 9.0
 		"heat dissipation" 1.3
@@ -1313,6 +1326,7 @@ ship "Model 64"
 		"shields" 41700
 		"hull" 18000
 		"automaton" 1
+		"crew equivalent" 50
 		"mass" 580
 		"drag" 11.1
 		"heat dissipation" 1.1
@@ -1370,6 +1384,7 @@ ship "Model 128"
 		"shields" 57000
 		"hull" 23100
 		"automaton" 1
+		"crew equivalent" 75
 		"mass" 780
 		"drag" 13.2
 		"heat dissipation" 1.0
@@ -1428,6 +1443,7 @@ ship "Model 256"
 		"shields" 71700
 		"hull" 28700
 		"automaton" 1
+		"crew equivalent" 100
 		"mass" 970
 		"drag" 15.3
 		"heat dissipation" .9
@@ -1488,6 +1504,7 @@ ship "Model 512"
 		"shields" 86400
 		"hull" 34200
 		"automaton" 1
+		"crew equivalent" 150
 		"mass" 1150
 		"drag" 17.4
 		"heat dissipation" .8
